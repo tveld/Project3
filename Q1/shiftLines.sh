@@ -1,4 +1,6 @@
 #! /bin/bash
+printf "$(wc -l < $1 | xargs)\n"
+
 gawk '{
     for(s = 1; s <= NF; s++){
 
