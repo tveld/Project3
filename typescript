@@ -1,0 +1,130 @@
+Script started on Wed 07 Dec 2016 11:40:49 PM EST
+]0;tveld@hq:~/361-cis/Project3/Q1[tveld@hq Q1]$ ./shiftLines.sh test.dat | ./filterNoiseWords.sh noise | ./createReport.sh output
+The number of lines in the input file is 31
+The number of lines in the output file is 85
+]0;tveld@hq:~/361-cis/Project3/Q1[tveld@hq Q1]$ cat output 
+Advanced Computer Architecture
+Advanced Database Management Systems
+Algorithms Introduction
+Applications Discrete Mathematics
+Architecture Advanced Computer
+Architecture Organization Computer
+Aspect-Oriented Programming
+Communications Networking Data
+Computer Architecture Advanced
+Computer Architecture Organization
+Computer Graphics Mathematical Elements
+Computer Graphics Procedural Elements
+Computer Organization
+Computer Organization Principles
+Computer Science Computer Science Tapestry Exploring
+Computer Science Tapestry Exploring Computer Science
+Computing Distributed
+Computing Systems Introduction
+Concepts Database System
+Database Management Systems Advanced
+Database System Concepts
+Data Communications Networking
+Design Fundamentals Digital Logic Design VHDL
+Design Introduction Logic
+Design VHDL Design Fundamentals Digital Logic
+Digital Logic Design VHDL Design Fundamentals
+Discrete Mathematics Applications
+Distributed Computing
+Elements Computer Graphics Mathematical
+Elements Computer Graphics Procedural
+Engineers Intro the Internet
+Engineers Object Oriented Programming Primer
+Exploring Computer Science Computer Science Tapestry
+Exposed Hacking
+Fundamentals Digital Logic Design VHDL Design
+Fundamentals the Internet the World Wide Web
+Graphics Mathematical Elements Computer
+Graphics Procedural Elements Computer
+Guide UNIX Ultimate
+Hacking Exposed
+Handbook Object-Oriented Programming Java
+Internet Engineers Intro the
+Internet the World Wide Web Fundamentals the
+Introduction Algorithms
+Introduction Computing Systems
+Introduction Logic Design
+Intro the Internet Engineers
+Java Handbook Object-Oriented Programming
+Learning Machine
+Logic Design Introduction
+Logic Design VHDL Design Fundamentals Digital
+Machine Learning
+Management Systems Advanced Database
+Mathematical Elements Computer Graphics
+Mathematics Applications Discrete
+Networking Data Communications
+Object-Oriented Programming Java Handbook
+Object Oriented Programming Primer Engineers
+Organization Computer
+Organization Computer Architecture
+Organization Principles Computer
+Oriented Programming Primer Engineers Object
+Primer Engineers Object Oriented Programming
+Principles Computer Organization
+Procedural Elements Computer Graphics
+Programming Aspect-Oriented
+Programming Java Handbook Object-Oriented
+Programming Primer Engineers Object Oriented
+Real-Time Systems
+Science Computer Science Tapestry Exploring Computer
+Science Tapestry Exploring Computer Science Computer
+System Concepts Database
+Systems Advanced Database Management
+Systems Introduction Computing
+Systems Real-Time
+Tapestry Exploring Computer Science Computer Science
+the Internet Engineers Intro
+the Internet the World Wide Web Fundamentals
+the World Wide Web Fundamentals the Internet
+Ultimate Guide UNIX
+UNIX Ultimate Guide
+VHDL Design Fundamentals Digital Logic Design
+Web Fundamentals the Internet the World Wide
+Wide Web Fundamentals the Internet the World
+World Wide Web Fundamentals the Internet the
+]0;tveld@hq:~/361-cis/Project3/Q1[tveld@hq Q1]$ cd ../Q2
+]0;tveld@hq:~/361-cis/Project3/Q2[tveld@hq Q2]$ ./automation.sh data cis361p4.zip 
+make: Entering directory '/home/tveld/361-cis/Project3/Q2/data/edwardsj'
+make: 'cipher' is up to date.
+make: Leaving directory '/home/tveld/361-cis/Project3/Q2/data/edwardsj'
+make: Entering directory '/home/tveld/361-cis/Project3/Q2/data/harrisr'
+make: 'cipher' is up to date.
+make: Leaving directory '/home/tveld/361-cis/Project3/Q2/data/harrisr'
+make: *** Project: No such file or directory.  Stop.
+make: *** Project: No such file or directory.  Stop.
+make: *** Project: No such file or directory.  Stop.
+make: *** Project: No such file or directory.  Stop.
+make: *** Project: No such file or directory.  Stop.
+make: *** Project: No such file or directory.  Stop.
+make: Entering directory '/home/tveld/361-cis/Project3/Q2/data/smitht'
+make: 'cipher' is up to date.
+make: Leaving directory '/home/tveld/361-cis/Project3/Q2/data/smitht'
+]0;tveld@hq:~/361-cis/Project3/Q2[tveld@hq Q2]$ cat report 
+make: Entering directory '/home/tveld/361-cis/Project3/Q2/data/edwardsj'
+./cipher 1 5 ../../data.txt ../../data.out
+./cipher 2 5 ../../data.out ../../data.bak
+cat ../../data.bak
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+make: Leaving directory '/home/tveld/361-cis/Project3/Q2/data/edwardsj'
+make: Entering directory '/home/tveld/361-cis/Project3/Q2/data/harrisr'
+./cipher 1 5 ../../data.txt ../../data.out
+./cipher 2 5 ../../data.out ../../data.bak
+cat ../../data.bak
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+make: Leaving directory '/home/tveld/361-cis/Project3/Q2/data/harrisr'
+make: Entering directory '/home/tveld/361-cis/Project3/Q2/data/smitht'
+./cipher 1 5 ../../data.txt ../../data.out
+./cipher 2 5 ../../data.out ../../data.bak
+cat ../../data.bak
+In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift cipher, Caesar's code or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a shift of 3, A would be replaced by D, B would become E, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+make: Leaving directory '/home/tveld/361-cis/Project3/Q2/data/smitht'
+]0;tveld@hq:~/361-cis/Project3/Q2[tveld@hq Q2]$ exit
+exit
+
+Script done on Wed 07 Dec 2016 11:43:20 PM EST

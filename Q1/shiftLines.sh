@@ -1,4 +1,6 @@
 #! /bin/bash
+if [ -f $1 -a $# == 1 ]
+then
 printf "$(wc -l < $1 | xargs)\n"
 
 gawk '{
@@ -11,3 +13,4 @@ gawk '{
         printf("\n");
     }
 }' $1
+fi

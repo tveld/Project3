@@ -1,5 +1,6 @@
 #! /bin/bash
-
+if [ -f $1 -a $# == 1 ]
+then
 > temp
 
 echo
@@ -25,3 +26,4 @@ gawk '{
 	printf("%s\n", $NF);
 }' temp | echo "$(sort -u)" > temp
 cat temp
+fi
