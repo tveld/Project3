@@ -23,5 +23,5 @@ gawk '{
 		printf("%s ", $i);
 	}
 	printf("%s\n", $NF);
-}' temp | sort -u
+}' temp | echo "$(sort -u)" > temp
 cat temp
