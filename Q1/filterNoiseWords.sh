@@ -24,3 +24,4 @@ gawk '{
 	}
 	printf("%s\n", $NF);
 }' temp | sort -u
+rm temp
