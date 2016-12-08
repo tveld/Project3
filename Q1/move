@@ -1,7 +1,5 @@
 #! /bin/bash
-
- gawk '{
-
+gawk '{
     for(s = 1; s <= NF; s++){
 
         for(i = 1; i <= NF; i++){
